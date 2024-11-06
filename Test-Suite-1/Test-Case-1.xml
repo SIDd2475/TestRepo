@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="f0ffe8ab-3b4d-4dce-82e0-f465fe5d3962" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Test Case 1" searchProperties="true" timeout="0">
+  <con:settings>
+    <con:setting id="f0ffe8ab-3b4d-4dce-82e0-f465fe5d3962fileName">Test-Case-1</con:setting>
+  </con:settings>
+  <con:testStep type="httprequest" name="HTTP Request" id="d07d0dd6-c227-435c-9201-14420648f862">
+    <con:settings/>
+    <con:config method="GET" xsi:type="con:HttpRequest" id="01c37ab8-168c-42d5-83d1-970c2fa30409" name="HTTP Request">
+      <con:settings/>
+      <con:endpoint/>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters/>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
